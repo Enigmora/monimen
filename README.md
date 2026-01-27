@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo-chronicle.svg" alt="Chronicle Logo" width="80" height="80">
+<img src="assets/logo-chronicle.svg" alt="Chronicle Logo" width="160" height="160">
 
 # Enigmora Chronicle Framework
 
