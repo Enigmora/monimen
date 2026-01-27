@@ -342,7 +342,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-<img src="assets/logo-enigmora.svg" alt="Enigmora Logo" width="120">
+<img src="assets/logo-enigmora.svg" alt="Enigmora Logo" width="60">
 
 **[Enigmora](https://enigmora.com)** builds tools for responsible AI-assisted software development.
 
