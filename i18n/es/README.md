@@ -278,6 +278,35 @@ El flujo de trabajo incluido (`.github/workflows/docs-validation.yml`) valida au
 
 ---
 
+## Skills (Claude Code)
+
+Chronicle Framework incluye skills para Claude Code que automatizan la verificación de documentación:
+
+### /chronicle-status
+
+Verificar estado de documentación después de trabajo asistido por IA:
+
+```bash
+/chronicle-status
+```
+
+Muestra:
+- Documentos Chronicle creados recientemente
+- Archivos modificados que pueden necesitar documentación
+- Resumen de cumplimiento de documentación
+
+### Reporte de Agentes
+
+Los agentes IA están instruidos para reportar su estado de documentación al final de cada tarea:
+
+| Estado | Significado |
+|--------|-------------|
+| `Chronicle: Created AILOG-...` | Documentación fue creada |
+| `Chronicle: No documentation required` | Cambio menor (<10 líneas) |
+| `Chronicle: Documentation pending` | Puede necesitar revisión manual |
+
+---
+
 ## Plataformas Soportadas
 
 ### Asistentes de Codificación IA

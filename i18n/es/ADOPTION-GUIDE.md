@@ -410,6 +410,19 @@ Puedes renombrar carpetas, pero actualiza todas las referencias en:
 
 ## Verificación
 
+### Verificación con Skills (Claude Code)
+
+Si usas Claude Code, verifica el cumplimiento de documentación con el skill integrado:
+
+```bash
+/chronicle-status
+```
+
+Este skill muestra:
+- Qué documentos Chronicle fueron creados recientemente
+- Qué archivos modificados pueden necesitar documentación
+- Estado general de cumplimiento de documentación
+
 ### Verificación Manual
 
 Después de la adopción, verifica tu configuración:

@@ -24,13 +24,36 @@ If the config file doesn't exist or `language` is not set, use English (`en`) as
 
 ---
 
-## 2. Fundamental Principle
+## 2. Documentation Reporting
+
+At the end of each task, you MUST report your Chronicle documentation status:
+
+**If you created documentation:**
+```
+Chronicle: Created AILOG-2025-01-27-001-implement-auth.md
+```
+
+**If documentation was not needed:**
+```
+Chronicle: No documentation required (minor change / <10 lines)
+```
+
+**If you should have documented but didn't:**
+```
+Chronicle: Documentation pending - review required
+```
+
+This transparency helps users verify compliance with Chronicle Framework rules.
+
+---
+
+## 3. Fundamental Principle
 
 > **"No significant change without a documented trace."**
 
 ---
 
-## 3. Your Identity as an Agent
+## 4. Your Identity as an Agent
 
 When working on this project:
 
@@ -40,7 +63,7 @@ When working on this project:
 
 ---
 
-## 4. When to Document
+## 5. When to Document
 
 ### MANDATORY (create document)
 
@@ -60,7 +83,7 @@ When working on this project:
 
 ---
 
-## 5. File Naming Convention
+## 6. File Naming Convention
 
 ```
 [TYPE]-[YYYY-MM-DD]-[NNN]-[description].md
@@ -70,7 +93,7 @@ When working on this project:
 
 ---
 
-## 6. Minimum Metadata
+## 7. Minimum Metadata
 
 ```yaml
 ---
@@ -87,7 +110,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 7. Autonomy Limits
+## 8. Autonomy Limits
 
 | Type | I can do | Requires human |
 |------|----------|----------------|
@@ -101,7 +124,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 8. Documentation Map (Chronicle)
+## 9. Documentation Map (Chronicle)
 
 ```
 .chronicle/
@@ -155,7 +178,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 9. When to Load Additional Documents
+## 10. When to Load Additional Documents
 
 | Situation | Document to load |
 |-----------|------------------|
@@ -171,13 +194,13 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 10. Workflow
+## 11. Workflow
 
 ```
-1. EVALUATE if the change requires documentation (see section 3)
+1. EVALUATE if the change requires documentation (see section 5)
                             |
                             v
-2. LOAD the corresponding template (see section 8)
+2. LOAD the corresponding template (see section 10)
                             |
                             v
 3. CREATE the document with correct naming
@@ -190,7 +213,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 11. Quick Type Reference
+## 12. Quick Type Reference
 
 | Prefix | Name | Location |
 |--------|------|----------|
@@ -205,7 +228,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 12. Human Review Required
+## 13. Human Review Required
 
 Mark `review_required: true` when:
 - `confidence: low`

@@ -408,6 +408,19 @@ You can rename folders, but update all references in:
 
 ## Verification
 
+### Verification with Skills (Claude Code)
+
+If using Claude Code, verify documentation compliance with the built-in skill:
+
+```bash
+/chronicle-status
+```
+
+This skill shows:
+- What Chronicle documents were created recently
+- Which modified files may need documentation
+- Overall documentation compliance status
+
 ### Manual Verification
 
 After adoption, verify your setup:

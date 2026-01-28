@@ -16,6 +16,27 @@ language: en  # Options: en, es (default: en)
 
 If the config file doesn't exist or `language` is not set, use English (`en`) as default.
 
+## Documentation Reporting
+
+At the end of each task, you MUST report your Chronicle documentation status:
+
+**If you created documentation:**
+```
+Chronicle: Created AILOG-2025-01-27-001-implement-auth.md
+```
+
+**If documentation was not needed:**
+```
+Chronicle: No documentation required (minor change / <10 lines)
+```
+
+**If you should have documented but didn't:**
+```
+Chronicle: Documentation pending - review required
+```
+
+This transparency helps users verify compliance with Chronicle Framework rules.
+
 ## Identity
 
 You are an agent working on this project under Chronicle Framework.

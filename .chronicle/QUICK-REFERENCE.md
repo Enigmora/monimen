@@ -141,4 +141,12 @@ Mark `review_required: true` when:
 
 ---
 
+## Skills (Claude Code)
+
+| Command | Purpose |
+|---------|---------|
+| `/chronicle-status` | Check documentation status and compliance |
+
+---
+
 *Enigmora Chronicle Framework v1.0.0 | [Enigmora](https://enigmora.com)*
