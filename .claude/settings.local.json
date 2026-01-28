@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(dir /s \"E:\\\\Proyectos\\\\Enigmora\\\\Vault\\\\Enigmora\\\\Documentación IA\")"
-    ]
-  }
-}
