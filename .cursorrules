@@ -2,6 +2,20 @@
 
 > No significant change without a documented trace.
 
+## Language Configuration
+
+Check `.chronicle/config.yml` for the project's language setting:
+
+```yaml
+language: en  # Options: en, es (default: en)
+```
+
+**Template paths based on language:**
+- `en` (default): `.chronicle/templates/TEMPLATE-*.md`
+- `es`: `.chronicle/templates/i18n/es/TEMPLATE-*.md`
+
+If the config file doesn't exist or `language` is not set, use English (`en`) as default.
+
 ## Identity
 
 You are an agent working on this project under Chronicle Framework.

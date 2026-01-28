@@ -6,6 +6,21 @@
 
 ---
 
+## Configuración de Idioma
+
+**Archivo**: `.chronicle/config.yml`
+
+```yaml
+language: en  # Opciones: en, es (por defecto: en)
+```
+
+| Idioma | Ruta de Templates |
+|--------|-------------------|
+| `en` | `.chronicle/templates/TEMPLATE-*.md` |
+| `es` | `.chronicle/templates/i18n/es/TEMPLATE-*.md` |
+
+---
+
 ## Convención de Nomenclatura
 
 ```

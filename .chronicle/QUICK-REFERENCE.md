@@ -4,6 +4,21 @@
 
 ---
 
+## Language Configuration
+
+**File**: `.chronicle/config.yml`
+
+```yaml
+language: en  # Options: en, es (default: en)
+```
+
+| Language | Template Path |
+|----------|---------------|
+| `en` | `.chronicle/templates/TEMPLATE-*.md` |
+| `es` | `.chronicle/templates/i18n/es/TEMPLATE-*.md` |
+
+---
+
 ## Naming Convention
 
 ```

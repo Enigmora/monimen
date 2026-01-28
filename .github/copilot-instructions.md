@@ -2,6 +2,23 @@
 
 > This file configures GitHub Copilot CLI under Enigmora Chronicle Framework.
 
+## Language Configuration
+
+Check `.chronicle/config.yml` for the project's language setting:
+
+```yaml
+language: en  # Options: en, es (default: en)
+```
+
+**Template paths based on language:**
+
+| Language | Template Path |
+|----------|---------------|
+| `en` (default) | `.chronicle/templates/TEMPLATE-*.md` |
+| `es` | `.chronicle/templates/i18n/es/TEMPLATE-*.md` |
+
+If the config file doesn't exist or `language` is not set, use English (`en`) as default.
+
 ## Fundamental Principle
 
 > **"No significant change without a documented trace."**

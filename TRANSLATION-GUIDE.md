@@ -6,12 +6,50 @@ This guide provides rules and guidelines for translating Chronicle Framework doc
 
 ## Table of Contents
 
-1. [Translation Scope](#translation-scope)
-2. [What to Translate](#what-to-translate)
-3. [What NEVER to Translate](#what-never-to-translate)
-4. [File Structure](#file-structure)
-5. [Translation Process](#translation-process)
-6. [Quality Checklist](#quality-checklist)
+1. [Language Configuration](#language-configuration)
+2. [Translation Scope](#translation-scope)
+3. [What to Translate](#what-to-translate)
+4. [What NEVER to Translate](#what-never-to-translate)
+5. [File Structure](#file-structure)
+6. [Translation Process](#translation-process)
+7. [Quality Checklist](#quality-checklist)
+
+---
+
+## Language Configuration
+
+Chronicle Framework uses a configuration file to set the project's language:
+
+**File**: `.chronicle/config.yml`
+
+```yaml
+# Language setting for templates and documentation
+# Supported values: en, es
+# Default: en (English)
+language: en
+```
+
+### How It Works
+
+1. AI agents read `.chronicle/config.yml` at the start of each session
+2. Based on the `language` value, they use templates from the appropriate path:
+
+| Language | Template Path |
+|----------|---------------|
+| `en` (default) | `.chronicle/templates/TEMPLATE-*.md` |
+| `es` | `.chronicle/templates/i18n/es/TEMPLATE-*.md` |
+
+3. If the config file doesn't exist or `language` is not set, English is used as default
+
+### Changing the Language
+
+To switch to Spanish:
+
+```yaml
+language: es
+```
+
+The AI agent will then use Spanish templates when creating documentation.
 
 ---
 

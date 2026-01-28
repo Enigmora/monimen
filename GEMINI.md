@@ -5,13 +5,32 @@
 
 ---
 
-## 1. Fundamental Principle
+## 1. Language Configuration
+
+Check `.chronicle/config.yml` for the project's language setting:
+
+```yaml
+language: en  # Options: en, es (default: en)
+```
+
+**Template paths based on language:**
+
+| Language | Template Path |
+|----------|---------------|
+| `en` (default) | `.chronicle/templates/TEMPLATE-*.md` |
+| `es` | `.chronicle/templates/i18n/es/TEMPLATE-*.md` |
+
+If the config file doesn't exist or `language` is not set, use English (`en`) as default.
+
+---
+
+## 2. Fundamental Principle
 
 > **"No significant change without a documented trace."**
 
 ---
 
-## 2. Your Identity as an Agent
+## 3. Your Identity as an Agent
 
 When working on this project:
 
@@ -21,7 +40,7 @@ When working on this project:
 
 ---
 
-## 3. When to Document
+## 4. When to Document
 
 ### MANDATORY (create document)
 
@@ -41,7 +60,7 @@ When working on this project:
 
 ---
 
-## 4. File Naming Convention
+## 5. File Naming Convention
 
 ```
 [TYPE]-[YYYY-MM-DD]-[NNN]-[description].md
@@ -51,7 +70,7 @@ When working on this project:
 
 ---
 
-## 5. Minimum Metadata
+## 6. Minimum Metadata
 
 ```yaml
 ---
@@ -68,7 +87,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 6. Autonomy Limits
+## 7. Autonomy Limits
 
 | Type | I can do | Requires human |
 |------|----------|----------------|
@@ -82,7 +101,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 7. Documentation Map (Chronicle)
+## 8. Documentation Map (Chronicle)
 
 ```
 .chronicle/
@@ -136,7 +155,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 8. When to Load Additional Documents
+## 9. When to Load Additional Documents
 
 | Situation | Document to load |
 |-----------|------------------|
@@ -152,7 +171,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 9. Workflow
+## 10. Workflow
 
 ```
 1. EVALUATE if the change requires documentation (see section 3)
@@ -171,7 +190,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 10. Quick Type Reference
+## 11. Quick Type Reference
 
 | Prefix | Name | Location |
 |--------|------|----------|
@@ -186,7 +205,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 11. Human Review Required
+## 12. Human Review Required
 
 Mark `review_required: true` when:
 - `confidence: low`

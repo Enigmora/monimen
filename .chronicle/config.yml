@@ -1,0 +1,7 @@
+# Chronicle Framework Configuration
+# https://github.com/enigmora/chronicle-framework
+
+# Language setting for templates and documentation
+# Supported values: en, es
+# Default: en (English)
+language: en
