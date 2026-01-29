@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Documentation](https://img.shields.io/badge/docs-ADOPTION--GUIDE-orange.svg)](ADOPTION-GUIDE.md)
+[![Handbook](https://img.shields.io/badge/docs-Handbook-orange.svg)](https://enigmora.github.io/monimen/)
 [![Enigmora](https://img.shields.io/badge/by-Enigmora-purple.svg)](https://enigmora.com)
 
 [Getting Started](#getting-started) •
@@ -174,10 +174,10 @@ Example: `ADR-2025-01-27-001-use-postgresql-for-persistence.md`
 
 | Document | Description |
 |----------|-------------|
-| [ADOPTION-GUIDE.md](ADOPTION-GUIDE.md) | Comprehensive adoption guide |
+| [**📘 Handbook**](https://enigmora.github.io/monimen/) | Complete online documentation |
+| [ADOPTION-GUIDE.md](ADOPTION-GUIDE.md) | Adoption guide for new/existing projects |
+| [docs/cookbook.md](docs/cookbook.md) | Practical examples and scenarios |
 | [.monimen/QUICK-REFERENCE.md](.monimen/QUICK-REFERENCE.md) | One-page reference card |
-| [.monimen/00-governance/PRINCIPLES.md](.monimen/00-governance/PRINCIPLES.md) | Guiding principles |
-| [.monimen/00-governance/AGENT-RULES.md](.monimen/00-governance/AGENT-RULES.md) | Rules for AI agents |
 
 ---
 

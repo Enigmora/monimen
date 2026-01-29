@@ -141,12 +141,30 @@ Mark `review_required: true` when:
 
 ---
 
-## Skills (Claude Code)
+## Skills
 
 | Command | Purpose |
 |---------|---------|
 | `/monimen-status` | Check documentation status and compliance |
+| `/monimen-new` | Create any document type (AI suggests) |
+| `/monimen-ailog` | Quick AILOG creation |
+| `/monimen-aidec` | Quick AIDEC creation |
+| `/monimen-adr` | Quick ADR creation |
 
 ---
 
-*Enigmora Monimen Framework v1.0.0 | [Enigmora](https://enigmora.com)*
+## Quick Scenarios
+
+| I just... | Create |
+|-----------|--------|
+| Implemented >10 lines | AILOG |
+| Chose between options | AIDEC |
+| Fixed security issue | AILOG + `risk_level: high` |
+| Found tech debt | TDE |
+| Handled PII data | AILOG + ETH |
+
+📖 **See [docs/cookbook.md](../docs/cookbook.md) for detailed examples.**
+
+---
+
+*Enigmora Monimen Framework v2.0.0 | [Handbook](https://enigmora.github.io/monimen/) | [Enigmora](https://enigmora.com)*
