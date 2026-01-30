@@ -30,6 +30,7 @@ EXCLUDES=(
     "copy-devtrail.sh"
     "assets"
     "docs"
+    "i18n"
 )
 
 usage() {
