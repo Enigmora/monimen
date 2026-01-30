@@ -5,7 +5,7 @@ title: Cookbook
 
 # Cookbook: Practical Examples
 
-Real-world scenarios showing how to use Monimen Framework.
+Real-world scenarios showing how to use DevTrail.
 
 ---
 
@@ -16,9 +16,9 @@ Real-world scenarios showing how to use Monimen Framework.
 **Action**: Create an AILOG
 
 ```bash
-/monimen-ailog
+/devtrail-ailog
 # or
-./scripts/monimen-new.sh ailog
+./scripts/devtrail-new.sh ailog
 ```
 
 **Document**:
@@ -67,7 +67,7 @@ Implemented JWT-based authentication using the `jsonwebtoken` library.
 **Action**: Create an AIDEC
 
 ```bash
-/monimen-aidec
+/devtrail-aidec
 ```
 
 **Document**:

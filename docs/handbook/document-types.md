@@ -5,7 +5,7 @@ title: Document Types
 
 # Document Types Reference
 
-Monimen Framework defines 8 document types covering the full development lifecycle.
+DevTrail defines 8 document types covering the full development lifecycle.
 
 ---
 
@@ -27,7 +27,7 @@ Monimen Framework defines 8 document types covering the full development lifecyc
 ## Document Locations
 
 ```
-.monimen/
+.devtrail/
 ├── 01-requirements/              ← REQ documents
 ├── 02-design/decisions/          ← ADR documents
 ├── 04-testing/                   ← TES documents

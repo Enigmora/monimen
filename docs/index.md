@@ -5,12 +5,12 @@ title: Home
 
 <div align="center">
 
-# Enigmora Monimen Framework
+# DevTrail
 
 **Documentation Governance for AI-Assisted Software Development**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/enigmora/monimen)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/enigmora/monimen/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/Enigmora/devtrail)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/enigmora/devtrail/blob/main/LICENSE)
 
 </div>
 
@@ -18,7 +18,7 @@ title: Home
 
 ## Welcome
 
-Monimen Framework ensures that every significant change in your codebase—whether made by a human or AI—is **documented, attributed, and reviewable**.
+DevTrail ensures that every significant change in your codebase—whether made by a human or AI—is **documented, attributed, and reviewable**.
 
 > **"No significant change without a documented trace."**
 
@@ -28,8 +28,8 @@ Monimen Framework ensures that every significant change in your codebase—wheth
 
 | Section | Description |
 |---------|-------------|
-| [**Getting Started**](handbook/getting-started) | Install and configure Monimen in your project |
-| [**Daily Usage**](handbook/daily-usage) | How to use Monimen day-to-day |
+| [**Getting Started**](handbook/getting-started) | Install and configure DevTrail in your project |
+| [**Daily Usage**](handbook/daily-usage) | How to use DevTrail day-to-day |
 | [**Document Types**](handbook/document-types) | All 8 document types explained |
 | [**AI Configuration**](handbook/ai-configuration) | Setting up Claude, Gemini, Cursor, and Copilot |
 | [**Cookbook**](handbook/cookbook) | Practical examples and scenarios |
@@ -38,7 +38,7 @@ Monimen Framework ensures that every significant change in your codebase—wheth
 
 ---
 
-## Why Monimen?
+## Why DevTrail?
 
 As AI coding assistants become integral to development, critical questions emerge:
 
@@ -47,7 +47,7 @@ As AI coding assistants become integral to development, critical questions emerg
 - **Should this be reviewed?** Is human oversight needed?
 - **What's the impact?** How risky is this change?
 
-Monimen answers all of these with structured, traceable documentation.
+DevTrail answers all of these with structured, traceable documentation.
 
 ---
 

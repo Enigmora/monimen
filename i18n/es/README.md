@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="../../assets/logo-monimen.svg" alt="Monimen Logo" width="160" height="160">
+<img src="../../assets/logo-devtrail.svg" alt="DevTrail Logo" width="160" height="160">
 
-# Enigmora Monimen Framework
+# DevTrail
 
 **Gobernanza de Documentación para Desarrollo de Software Asistido por IA**
 
@@ -35,7 +35,7 @@ Sin documentación estructurada, el desarrollo asistido por IA se convierte en u
 
 ## La Solución
 
-Enigmora Monimen Framework proporciona un **sistema de gobernanza de documentación** que asegura:
+DevTrail proporciona un **sistema de gobernanza de documentación** que asegura:
 
 > **"Ningún cambio significativo sin un rastro documentado."**
 
@@ -99,43 +99,43 @@ Herramientas de validación automatizadas:
 
 **Opción 1: Usar como Plantilla** (Recomendado)
 
-Haz clic en el botón **"Use this template"** arriba para crear un nuevo repositorio con Enigmora Monimen Framework pre-configurado.
+Haz clic en el botón **"Use this template"** arriba para crear un nuevo repositorio con DevTrail pre-configurado.
 
 **Opción 2: Clonar y Copiar**
 
 ```bash
-# Clonar Enigmora Monimen Framework
-git clone https://github.com/enigmora/monimen-framework.git
+# Clonar DevTrail
+git clone https://github.com/enigmora/devtrail-framework.git
 
 # Copiar a tu proyecto
-cp -r monimen-framework/.monimen tu-proyecto/
-cp monimen-framework/CLAUDE.md tu-proyecto/
-cp monimen-framework/GEMINI.md tu-proyecto/
-cp monimen-framework/.cursorrules tu-proyecto/
-cp -r monimen-framework/.github tu-proyecto/
-cp -r monimen-framework/scripts tu-proyecto/
+cp -r devtrail-framework/.devtrail tu-proyecto/
+cp devtrail-framework/CLAUDE.md tu-proyecto/
+cp devtrail-framework/GEMINI.md tu-proyecto/
+cp devtrail-framework/.cursorrules tu-proyecto/
+cp -r devtrail-framework/.github tu-proyecto/
+cp -r devtrail-framework/scripts tu-proyecto/
 ```
 
 ### Inicio Rápido (Proyecto Existente)
 
 ```bash
-# Descargar Enigmora Monimen Framework
-git clone https://github.com/enigmora/monimen-framework.git monimen-temp
+# Descargar DevTrail
+git clone https://github.com/enigmora/devtrail-framework.git devtrail-temp
 
 # Copiar sin sobrescribir (Linux/Mac)
-cp -rn monimen-temp/.monimen ./
-cp -n monimen-temp/CLAUDE.md ./
-cp -n monimen-temp/GEMINI.md ./
-cp -n monimen-temp/.cursorrules ./
-cp -rn monimen-temp/.github ./
-cp -rn monimen-temp/scripts ./
+cp -rn devtrail-temp/.devtrail ./
+cp -n devtrail-temp/CLAUDE.md ./
+cp -n devtrail-temp/GEMINI.md ./
+cp -n devtrail-temp/.cursorrules ./
+cp -rn devtrail-temp/.github ./
+cp -rn devtrail-temp/scripts ./
 
 # Limpiar
-rm -rf monimen-temp
+rm -rf devtrail-temp
 
 # Commit
-git add .monimen/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
-git commit -m "chore: adoptar Enigmora Monimen Framework"
+git add .devtrail/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
+git commit -m "chore: adoptar DevTrail"
 ```
 
 **Ver [ADOPTION-GUIDE.md](ADOPTION-GUIDE.md) para instrucciones detalladas, estrategias de migración y planes de implementación en equipos.**
@@ -147,7 +147,7 @@ git commit -m "chore: adoptar Enigmora Monimen Framework"
 ### Referencia Rápida
 
 ```
-.monimen/
+.devtrail/
 ├── 00-governance/           # Políticas y reglas
 ├── 01-requirements/         # Documentos REQ
 ├── 02-design/decisions/     # Documentos ADR
@@ -175,9 +175,9 @@ Ejemplo: `ADR-2025-01-27-001-usar-postgresql-para-persistencia.md`
 | Documento | Descripción |
 |-----------|-------------|
 | [ADOPTION-GUIDE.md](ADOPTION-GUIDE.md) | Guía completa de adopción |
-| [.monimen/QUICK-REFERENCE.md](../../.monimen/QUICK-REFERENCE.md) | Tarjeta de referencia de una página |
-| [.monimen/00-governance/PRINCIPLES.md](../../.monimen/00-governance/i18n/es/PRINCIPLES.md) | Principios guía |
-| [.monimen/00-governance/AGENT-RULES.md](../../.monimen/00-governance/i18n/es/AGENT-RULES.md) | Reglas para agentes IA |
+| [.devtrail/QUICK-REFERENCE.md](../../.devtrail/QUICK-REFERENCE.md) | Tarjeta de referencia de una página |
+| [.devtrail/00-governance/PRINCIPLES.md](../../.devtrail/00-governance/i18n/es/PRINCIPLES.md) | Principios guía |
+| [.devtrail/00-governance/AGENT-RULES.md](../../.devtrail/00-governance/i18n/es/AGENT-RULES.md) | Reglas para agentes IA |
 
 ---
 
@@ -188,7 +188,7 @@ Ejemplo: `ADR-2025-01-27-001-usar-postgresql-para-persistencia.md`
 Un asistente de IA trabajando en tu código automáticamente:
 
 ```yaml
-# Crea: .monimen/07-ai-audit/agent-logs/AILOG-2025-01-27-001-implementar-auth.md
+# Crea: .devtrail/07-ai-audit/agent-logs/AILOG-2025-01-27-001-implementar-auth.md
 ---
 id: AILOG-2025-01-27-001
 title: Implementar autenticación JWT
@@ -216,7 +216,7 @@ AILOG-2025-01-27-001-implementar-auth.md
 Al elegir entre alternativas, las decisiones se documentan:
 
 ```yaml
-# Crea: .monimen/07-ai-audit/decisions/AIDEC-2025-01-27-001-estrategia-auth.md
+# Crea: .devtrail/07-ai-audit/decisions/AIDEC-2025-01-27-001-estrategia-auth.md
 ---
 id: AIDEC-2025-01-27-001
 title: Elegir JWT sobre autenticación basada en sesiones
@@ -233,7 +233,7 @@ justification: "Requisito de arquitectura sin estado..."
 Cuando la IA encuentra consideraciones éticas:
 
 ```yaml
-# Crea: .monimen/07-ai-audit/ethical-reviews/ETH-2025-01-27-001-datos-usuario.md
+# Crea: .devtrail/07-ai-audit/ethical-reviews/ETH-2025-01-27-001-datos-usuario.md
 ---
 id: ETH-2025-01-27-001
 title: Alcance de recolección de datos de usuario
@@ -280,36 +280,36 @@ El flujo de trabajo incluido (`.github/workflows/docs-validation.yml`) valida au
 
 ## Skills
 
-Monimen Framework incluye skills para agentes IA que habilitan la **creación activa de documentación**.
+DevTrail incluye skills para agentes IA que habilitan la **creación activa de documentación**.
 
-> **Sistema Binario**: Monimen usa un sistema pasivo (agentes auto-documentan via instrucciones de contexto) y un sistema activo (usuarios invocan skills para crear documentación manualmente o cuando el agente omitió algo).
+> **Sistema Binario**: DevTrail usa un sistema pasivo (agentes auto-documentan via instrucciones de contexto) y un sistema activo (usuarios invocan skills para crear documentación manualmente o cuando el agente omitió algo).
 
 ### Skills Disponibles
 
 | Skill | Propósito | Claude | Gemini |
 |-------|-----------|--------|--------|
-| `/monimen-status` | Verificar cumplimiento de documentación | ✅ | ✅ |
-| `/monimen-new` | Crear cualquier tipo de documento (unificado) | ✅ | ✅ |
-| `/monimen-ailog` | Creación rápida de AILOG | ✅ | ✅ |
-| `/monimen-aidec` | Creación rápida de AIDEC | ✅ | ✅ |
-| `/monimen-adr` | Creación rápida de ADR | ✅ | ✅ |
+| `/devtrail-status` | Verificar cumplimiento de documentación | ✅ | ✅ |
+| `/devtrail-new` | Crear cualquier tipo de documento (unificado) | ✅ | ✅ |
+| `/devtrail-ailog` | Creación rápida de AILOG | ✅ | ✅ |
+| `/devtrail-aidec` | Creación rápida de AIDEC | ✅ | ✅ |
+| `/devtrail-adr` | Creación rápida de ADR | ✅ | ✅ |
 
 ### Ejemplos de Uso
 
 ```bash
 # Verificar estado de documentación
-/monimen-status
+/devtrail-status
 
 # Crear documentación (agente sugiere tipo)
-/monimen-new
+/devtrail-new
 
 # Forzar tipo específico
-/monimen-new ailog
+/devtrail-new ailog
 
 # Accesos directos
-/monimen-ailog
-/monimen-aidec
-/monimen-adr
+/devtrail-ailog
+/devtrail-aidec
+/devtrail-adr
 ```
 
 ### Scripts Shell (Uso Manual)
@@ -318,13 +318,13 @@ Para usuarios que prefieren línea de comandos o usan agentes sin soporte de ski
 
 ```bash
 # Creación interactiva de documentos
-./scripts/monimen-new.sh
+./scripts/devtrail-new.sh
 
 # Crear tipo específico directamente
-./scripts/monimen-new.sh ailog
+./scripts/devtrail-new.sh ailog
 
 # Verificar estado de documentación
-./scripts/monimen-status.sh
+./scripts/devtrail-status.sh
 ```
 
 ### Reporte de Agentes
@@ -333,25 +333,25 @@ Los agentes IA reportan su estado de documentación al final de cada tarea:
 
 | Estado | Significado |
 |--------|-------------|
-| `Monimen: Created AILOG-...` | Documentación fue creada |
-| `Monimen: No documentation required` | Cambio menor (<10 líneas) |
-| `Monimen: Documentation pending` | Puede necesitar revisión manual |
+| `DevTrail: Created AILOG-...` | Documentación fue creada |
+| `DevTrail: No documentation required` | Cambio menor (<10 líneas) |
+| `DevTrail: Documentation pending` | Puede necesitar revisión manual |
 
 ### Arquitectura Multi-Agente
 
-Monimen Framework proporciona soporte nativo de skills para múltiples agentes IA a través de una arquitectura en capas:
+DevTrail proporciona soporte nativo de skills para múltiples agentes IA a través de una arquitectura en capas:
 
 ```
 tu-proyecto/
 ├── .agent/workflows/       # 🌐 Agnóstico (Antigravity, futuros agentes)
-│   ├── monimen-new.md
-│   ├── monimen-status.md
+│   ├── devtrail-new.md
+│   ├── devtrail-status.md
 │   └── ...
 ├── .gemini/skills/         # 🔵 Gemini CLI (Google)
-│   ├── monimen-new/SKILL.md
+│   ├── devtrail-new/SKILL.md
 │   └── ...
 └── .claude/skills/         # 🟣 Claude Code (Anthropic)
-    ├── monimen-new/SKILL.md
+    ├── devtrail-new/SKILL.md
     └── ...
 ```
 
@@ -398,7 +398,7 @@ Todas las implementaciones de skills son **funcionalmente idénticas**—solo di
 
 ## Alineación con Estándares
 
-Enigmora Monimen Framework se alinea con:
+DevTrail se alinea con:
 
 - **ADR** (Architecture Decision Records) - Soporte nativo
 - **IEEE 830** - Estructura de documentación de requisitos
@@ -445,8 +445,8 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](.
 
 <div align="center">
 
-**Enigmora Monimen Framework** — Porque cada cambio cuenta una historia.
+**DevTrail** — Porque cada cambio cuenta una historia.
 
-[Volver arriba](#enigmora-monimen-framework)
+[Volver arriba](#enigmora-devtrail-framework)
 
 </div>

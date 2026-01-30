@@ -1,17 +1,17 @@
 # =============================================================================
-# Enigmora Monimen Framework - Documentation Validation Script (PowerShell)
+# DevTrail - Documentation Validation Script (PowerShell)
 # https://enigmora.com
 # =============================================================================
 #
 # Usage:
 #   .\scripts\validate-docs.ps1
-#   .\scripts\validate-docs.ps1 -Path ".monimen/07-ai-audit"
+#   .\scripts\validate-docs.ps1 -Path ".devtrail/07-ai-audit"
 #   .\scripts\validate-docs.ps1 -Verbose
 #
 # =============================================================================
 
 param(
-    [string]$Path = ".monimen",
+    [string]$Path = ".devtrail",
     [switch]$Verbose
 )
 

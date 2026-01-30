@@ -5,7 +5,7 @@ title: Daily Usage
 
 # Daily Usage
 
-How to use Monimen Framework in your day-to-day development workflow.
+How to use DevTrail in your day-to-day development workflow.
 
 ---
 
@@ -48,36 +48,36 @@ If using Claude Code or Gemini CLI:
 
 ```bash
 # Create any document (AI suggests type)
-/monimen-new
+/devtrail-new
 
 # Create specific document types
-/monimen-ailog
-/monimen-aidec
-/monimen-adr
+/devtrail-ailog
+/devtrail-aidec
+/devtrail-adr
 
 # Check documentation status
-/monimen-status
+/devtrail-status
 ```
 
 ### Using Shell Scripts
 
 ```bash
 # Interactive document creation
-./scripts/monimen-new.sh
+./scripts/devtrail-new.sh
 
 # Create specific type
-./scripts/monimen-new.sh ailog
+./scripts/devtrail-new.sh ailog
 
 # Check status
-./scripts/monimen-status.sh
+./scripts/devtrail-status.sh
 ```
 
 ### Manual Creation
 
 1. Copy the template:
    ```bash
-   cp .monimen/templates/TEMPLATE-AILOG.md \
-      .monimen/07-ai-audit/agent-logs/AILOG-$(date +%Y-%m-%d)-001-description.md
+   cp .devtrail/templates/TEMPLATE-AILOG.md \
+      .devtrail/07-ai-audit/agent-logs/AILOG-$(date +%Y-%m-%d)-001-description.md
    ```
 
 2. Fill in the metadata and content
@@ -142,20 +142,20 @@ If using Claude Code or Gemini CLI:
 At the end of each task, report your documentation status:
 
 ```
-Monimen: Created AILOG-2025-01-29-001-implement-auth.md
+DevTrail: Created AILOG-2025-01-29-001-implement-auth.md
 ```
 
 or
 
 ```
-Monimen: No documentation required (minor change / <10 lines)
+DevTrail: No documentation required (minor change / <10 lines)
 ```
 
 ---
 
 ## Quick Reference
 
-Keep `.monimen/QUICK-REFERENCE.md` handy for:
+Keep `.devtrail/QUICK-REFERENCE.md` handy for:
 - Document type locations
 - Minimum metadata fields
 - When to mark `review_required: true`
@@ -168,7 +168,7 @@ Keep `.monimen/QUICK-REFERENCE.md` handy for:
 2. **Use templates** — They ensure consistency
 3. **Be concise** — Minimum viable documentation
 4. **Link related docs** — Use `[REQ-XXXX]` format
-5. **Review regularly** — Run `/monimen-status` weekly
+5. **Review regularly** — Run `/devtrail-status` weekly
 
 ---
 

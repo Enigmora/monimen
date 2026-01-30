@@ -1,6 +1,6 @@
-# Contributing to Enigmora Monimen Framework
+# Contributing to DevTrail
 
-Thank you for your interest in contributing to Monimen Framework! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to DevTrail! This document provides guidelines and information for contributors.
 
 ## Table of Contents
 
@@ -89,8 +89,8 @@ Code contributions should:
 
 2. **Clone your fork**
    ```bash
-   git clone https://github.com/your-username/enigmora-monimen.git
-   cd monimen-framework
+   git clone https://github.com/your-username/devtrail.git
+   cd devtrail-framework
    ```
 
 3. **Create a branch**
@@ -203,7 +203,7 @@ created: YYYY-MM-DD
 
 ### File Naming
 
-Monimen documents:
+DevTrail documents:
 ```
 [TYPE]-[YYYY-MM-DD]-[NNN]-[description].md
 ```
@@ -227,13 +227,13 @@ Monimen documents:
 If you're proposing a new document type:
 
 1. **Create the template**
-   - Add `TEMPLATE-NEWTYPE.md` to `.monimen/templates/`
+   - Add `TEMPLATE-NEWTYPE.md` to `.devtrail/templates/`
    - Follow existing template patterns
 
 2. **Update governance docs**
-   - `.monimen/00-governance/DOCUMENTATION-POLICY.md`
-   - `.monimen/00-governance/AGENT-RULES.md`
-   - `.monimen/QUICK-REFERENCE.md`
+   - `.devtrail/00-governance/DOCUMENTATION-POLICY.md`
+   - `.devtrail/00-governance/AGENT-RULES.md`
+   - `.devtrail/QUICK-REFERENCE.md`
 
 3. **Update agent configs**
    - `CLAUDE.md`
@@ -272,8 +272,8 @@ Templates should include:
 
 If you have questions about contributing:
 
-1. Check existing [Issues](https://github.com/enigmora/monimen-framework/issues)
-2. Check [Discussions](https://github.com/enigmora/monimen-framework/discussions)
+1. Check existing [Issues](https://github.com/enigmora/devtrail-framework/issues)
+2. Check [Discussions](https://github.com/enigmora/devtrail-framework/discussions)
 3. Open a new Discussion for general questions
 4. Open an Issue for specific bugs or features
 
@@ -287,10 +287,10 @@ Contributors are recognized in:
 - Release notes for significant contributions
 - CONTRIBUTORS.md (for recurring contributors)
 
-Thank you for helping make Monimen Framework better!
+Thank you for helping make DevTrail better!
 
 ---
 
-*Enigmora Monimen Framework — Because every change tells a story.*
+*DevTrail — Because every change tells a story.*
 
 [Enigmora](https://enigmora.com)

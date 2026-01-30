@@ -3,9 +3,9 @@ layout: default
 title: Getting Started
 ---
 
-# Getting Started with Monimen
+# Getting Started with DevTrail
 
-This guide walks you through adopting Monimen Framework in your project.
+This guide walks you through adopting DevTrail in your project.
 
 ---
 
@@ -21,7 +21,7 @@ This guide walks you through adopting Monimen Framework in your project.
 
 The fastest way to start:
 
-1. **Go to the Monimen repository** on GitHub
+1. **Go to the DevTrail repository** on GitHub
 2. **Click "Use this template"** → "Create a new repository"
 3. **Clone your new repository**:
    ```bash
@@ -37,24 +37,24 @@ The fastest way to start:
 For projects that already exist:
 
 ```bash
-# Clone Monimen temporarily
-git clone https://github.com/enigmora/monimen.git monimen-temp
+# Clone DevTrail temporarily
+git clone https://github.com/Enigmora/devtrail.git devtrail-temp
 
 # Copy the framework files (won't overwrite existing)
-cp -rn monimen-temp/.monimen ./
-cp -n monimen-temp/CLAUDE.md ./
-cp -n monimen-temp/GEMINI.md ./
-cp -n monimen-temp/.cursorrules ./
+cp -rn devtrail-temp/.devtrail ./
+cp -n devtrail-temp/CLAUDE.md ./
+cp -n devtrail-temp/GEMINI.md ./
+cp -n devtrail-temp/.cursorrules ./
 mkdir -p .github
-cp -rn monimen-temp/.github/* ./.github/
-cp -rn monimen-temp/scripts ./
+cp -rn devtrail-temp/.github/* ./.github/
+cp -rn devtrail-temp/scripts ./
 
 # Clean up
-rm -rf monimen-temp
+rm -rf devtrail-temp
 
 # Commit
-git add .monimen/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
-git commit -m "chore: adopt Monimen Framework"
+git add .devtrail/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
+git commit -m "chore: adopt DevTrail"
 ```
 
 ---
@@ -73,7 +73,7 @@ bash scripts/pre-commit-docs.sh
 
 You should see:
 ```
-✓ Monimen Framework validation passed
+✓ DevTrail validation passed
 ```
 
 ---
@@ -84,7 +84,7 @@ After installation, you'll have:
 
 ```
 your-project/
-├── .monimen/                    # Documentation framework
+├── .devtrail/                    # Documentation framework
 │   ├── 00-governance/           # Policies and rules
 │   ├── 01-requirements/         # REQ documents
 │   ├── 02-design/decisions/     # ADR documents
@@ -124,7 +124,7 @@ Choose your AI platform and follow the setup:
 
 By default, templates are in English. To use Spanish:
 
-Edit `.monimen/config.yml`:
+Edit `.devtrail/config.yml`:
 ```yaml
 language: es
 ```

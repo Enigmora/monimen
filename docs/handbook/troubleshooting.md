@@ -5,7 +5,7 @@ title: Troubleshooting
 
 # Troubleshooting
 
-Common issues and solutions when using Monimen Framework.
+Common issues and solutions when using DevTrail.
 
 ---
 
@@ -16,18 +16,18 @@ Common issues and solutions when using Monimen Framework.
 **Solution**:
 ```bash
 chmod +x scripts/pre-commit-docs.sh
-chmod +x scripts/monimen-*.sh
+chmod +x scripts/devtrail-*.sh
 ```
 
 ---
 
-### "Command not found: monimen-new.sh"
+### "Command not found: devtrail-new.sh"
 
 **Solution**: Run with explicit path:
 ```bash
-./scripts/monimen-new.sh
+./scripts/devtrail-new.sh
 # or
-bash scripts/monimen-new.sh
+bash scripts/devtrail-new.sh
 ```
 
 ---
@@ -39,7 +39,7 @@ bash scripts/monimen-new.sh
 **Solution**: Use explicit copy:
 ```bash
 # Check if file exists before copying
-[ ! -f CLAUDE.md ] && cp monimen-temp/CLAUDE.md ./
+[ ! -f CLAUDE.md ] && cp devtrail-temp/CLAUDE.md ./
 ```
 
 ---
@@ -99,12 +99,12 @@ WARNING: Possible API key in file
 
 ### AI not creating documents
 
-**Problem**: AI assistant isn't following Monimen rules.
+**Problem**: AI assistant isn't following DevTrail rules.
 
 **Solutions**:
 1. Verify config file exists (`CLAUDE.md`, `GEMINI.md`, etc.)
-2. Explicitly remind the AI: "Remember to follow Monimen rules"
-3. Use `/monimen-status` to check compliance
+2. Explicitly remind the AI: "Remember to follow DevTrail rules"
+3. Use `/devtrail-status` to check compliance
 
 ---
 
@@ -139,13 +139,13 @@ why you chose this approach over alternatives.
 
 **Error**:
 ```
-Template .monimen/templates/TEMPLATE-XYZ.md not found
+Template .devtrail/templates/TEMPLATE-XYZ.md not found
 ```
 
 **Solutions**:
 1. Check template name is correct (case-sensitive)
-2. Verify `.monimen/templates/` directory exists
-3. Re-copy templates from Monimen repository
+2. Verify `.devtrail/templates/` directory exists
+3. Re-copy templates from DevTrail repository
 
 ---
 
@@ -153,14 +153,14 @@ Template .monimen/templates/TEMPLATE-XYZ.md not found
 
 **Problem**: Getting English templates when Spanish is configured.
 
-**Solution**: Check `.monimen/config.yml`:
+**Solution**: Check `.devtrail/config.yml`:
 ```yaml
 language: es  # Must be exactly 'es', not 'ES' or 'spanish'
 ```
 
 And verify Spanish templates exist:
 ```bash
-ls .monimen/templates/i18n/es/
+ls .devtrail/templates/i18n/es/
 ```
 
 ---
@@ -174,7 +174,7 @@ ls .monimen/templates/i18n/es/
 **Solutions**:
 1. Check `.github/workflows/docs-validation.yml` exists
 2. Verify file is valid YAML
-3. Check if PR modifies `.monimen/` files (default trigger)
+3. Check if PR modifies `.devtrail/` files (default trigger)
 
 ---
 
@@ -238,8 +238,8 @@ superseded → draft     ❌
 
 ## Still Stuck?
 
-1. **Check existing issues**: [GitHub Issues](https://github.com/enigmora/monimen/issues)
-2. **Ask the community**: [GitHub Discussions](https://github.com/enigmora/monimen/discussions)
+1. **Check existing issues**: [GitHub Issues](https://github.com/enigmora/devtrail/issues)
+2. **Ask the community**: [GitHub Discussions](https://github.com/enigmora/devtrail/discussions)
 3. **File a bug report**: Include error messages and steps to reproduce
 
 ---

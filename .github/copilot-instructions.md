@@ -1,10 +1,10 @@
-# Enigmora Monimen Framework - Guidelines for GitHub Copilot
+# DevTrail - Guidelines for GitHub Copilot
 
-> This file configures GitHub Copilot CLI under Enigmora Monimen Framework.
+> This file configures GitHub Copilot CLI under DevTrail.
 
 ## Language Configuration
 
-Check `.monimen/config.yml` for the project's language setting:
+Check `.devtrail/config.yml` for the project's language setting:
 
 ```yaml
 language: en  # Options: en, es (default: en)
@@ -14,31 +14,31 @@ language: en  # Options: en, es (default: en)
 
 | Language | Template Path |
 |----------|---------------|
-| `en` (default) | `.monimen/templates/TEMPLATE-*.md` |
-| `es` | `.monimen/templates/i18n/es/TEMPLATE-*.md` |
+| `en` (default) | `.devtrail/templates/TEMPLATE-*.md` |
+| `es` | `.devtrail/templates/i18n/es/TEMPLATE-*.md` |
 
 If the config file doesn't exist or `language` is not set, use English (`en`) as default.
 
 ## Documentation Reporting
 
-At the end of each task, you MUST report your Monimen documentation status:
+At the end of each task, you MUST report your DevTrail documentation status:
 
 **If you created documentation:**
 ```
-Monimen: Created AILOG-2025-01-27-001-implement-auth.md
+DevTrail: Created AILOG-2025-01-27-001-implement-auth.md
 ```
 
 **If documentation was not needed:**
 ```
-Monimen: No documentation required (minor change / <10 lines)
+DevTrail: No documentation required (minor change / <10 lines)
 ```
 
 **If you should have documented but didn't:**
 ```
-Monimen: Documentation pending - review required
+DevTrail: Documentation pending - review required
 ```
 
-This transparency helps users verify compliance with Monimen Framework rules.
+This transparency helps users verify compliance with DevTrail rules.
 
 ## Fundamental Principle
 
@@ -104,10 +104,10 @@ risk_level: low | medium | high | critical
 | REQ | Propose → human validates |
 | TDE | Identify yes, prioritize no |
 
-## Documentation Map (Monimen)
+## Documentation Map (DevTrail)
 
 ```
-.monimen/
+.devtrail/
 ├── 00-governance/          ← Policies (load if in doubt)
 │   ├── AGENT-RULES.md      # Detailed rules
 │   └── DOCUMENTATION-POLICY.md
@@ -127,24 +127,24 @@ risk_level: low | medium | high | critical
 
 | Need to | Load |
 |---------|------|
-| Create AILOG | `.monimen/templates/TEMPLATE-AILOG.md` |
-| Create AIDEC | `.monimen/templates/TEMPLATE-AIDEC.md` |
-| Create ADR | `.monimen/templates/TEMPLATE-ADR.md` |
-| Naming questions | `.monimen/00-governance/DOCUMENTATION-POLICY.md` |
-| Autonomy questions | `.monimen/00-governance/AGENT-RULES.md` |
+| Create AILOG | `.devtrail/templates/TEMPLATE-AILOG.md` |
+| Create AIDEC | `.devtrail/templates/TEMPLATE-AIDEC.md` |
+| Create ADR | `.devtrail/templates/TEMPLATE-ADR.md` |
+| Naming questions | `.devtrail/00-governance/DOCUMENTATION-POLICY.md` |
+| Autonomy questions | `.devtrail/00-governance/AGENT-RULES.md` |
 
 ## Quick Type Reference
 
 | Prefix | Name | Location |
 |--------|------|----------|
-| `AILOG` | AI Action Log | `.monimen/07-ai-audit/agent-logs/` |
-| `AIDEC` | AI Decision | `.monimen/07-ai-audit/decisions/` |
-| `ETH` | Ethical Review | `.monimen/07-ai-audit/ethical-reviews/` |
-| `ADR` | Architecture Decision Record | `.monimen/02-design/decisions/` |
-| `REQ` | Requirement | `.monimen/01-requirements/` |
-| `TES` | Test Plan | `.monimen/04-testing/` |
-| `INC` | Incident Post-mortem | `.monimen/05-operations/incidents/` |
-| `TDE` | Technical Debt | `.monimen/06-evolution/technical-debt/` |
+| `AILOG` | AI Action Log | `.devtrail/07-ai-audit/agent-logs/` |
+| `AIDEC` | AI Decision | `.devtrail/07-ai-audit/decisions/` |
+| `ETH` | Ethical Review | `.devtrail/07-ai-audit/ethical-reviews/` |
+| `ADR` | Architecture Decision Record | `.devtrail/02-design/decisions/` |
+| `REQ` | Requirement | `.devtrail/01-requirements/` |
+| `TES` | Test Plan | `.devtrail/04-testing/` |
+| `INC` | Incident Post-mortem | `.devtrail/05-operations/incidents/` |
+| `TDE` | Technical Debt | `.devtrail/06-evolution/technical-debt/` |
 
 ## Human Review Required
 
@@ -156,4 +156,4 @@ Mark `review_required: true` when:
 
 ---
 
-*Enigmora Monimen Framework v1.0.0 | [Enigmora](https://enigmora.com)*
+*DevTrail v1.0.0 | [Enigmora](https://enigmora.com)*

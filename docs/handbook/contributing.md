@@ -3,9 +3,9 @@ layout: default
 title: Contributing
 ---
 
-# Contributing to Monimen
+# Contributing to DevTrail
 
-How to contribute to the Enigmora Monimen Framework.
+How to contribute to the DevTrail.
 
 ---
 
@@ -27,8 +27,8 @@ How to contribute to the Enigmora Monimen Framework.
 # Fork the repository on GitHub
 
 # Clone your fork
-git clone https://github.com/your-username/monimen.git
-cd monimen
+git clone https://github.com/your-username/devtrail.git
+cd devtrail
 
 # Create a branch
 git checkout -b feature/your-feature-name
@@ -93,7 +93,7 @@ docs(readme): clarify installation steps
 
 To propose a new document type:
 
-1. Create `TEMPLATE-NEWTYPE.md` in `.monimen/templates/`
+1. Create `TEMPLATE-NEWTYPE.md` in `.devtrail/templates/`
 2. Update governance docs:
    - `DOCUMENTATION-POLICY.md`
    - `AGENT-RULES.md`
@@ -110,7 +110,7 @@ To propose a new document type:
 
 ## Adding Translations
 
-See [TRANSLATION-GUIDE.md](https://github.com/enigmora/monimen/blob/main/TRANSLATION-GUIDE.md) for:
+See [TRANSLATION-GUIDE.md](https://github.com/enigmora/devtrail/blob/main/TRANSLATION-GUIDE.md) for:
 
 - What to translate
 - What NOT to translate (technical tokens)
@@ -212,14 +212,14 @@ Contributors are recognized in:
 
 ## Code of Conduct
 
-Be respectful, inclusive, and constructive. See [CODE_OF_CONDUCT.md](https://github.com/enigmora/monimen/blob/main/CODE_OF_CONDUCT.md).
+Be respectful, inclusive, and constructive. See [CODE_OF_CONDUCT.md](https://github.com/enigmora/devtrail/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 
 ## Getting Help
 
-- **Issues**: [GitHub Issues](https://github.com/enigmora/monimen/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/enigmora/monimen/discussions)
+- **Issues**: [GitHub Issues](https://github.com/enigmora/devtrail/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/enigmora/devtrail/discussions)
 
 ---
 

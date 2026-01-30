@@ -5,7 +5,7 @@ title: AI Configuration
 
 # AI Agent Configuration
 
-How to configure different AI coding assistants to work with Monimen Framework.
+How to configure different AI coding assistants to work with DevTrail.
 
 ---
 
@@ -18,7 +18,7 @@ How to configure different AI coding assistants to work with Monimen Framework.
 | Gemini CLI | `GEMINI.md` | ✅ Yes |
 | GitHub Copilot | `.github/copilot-instructions.md` | ✅ Yes |
 
-All configurations are **pre-configured** in Monimen. No additional setup required!
+All configurations are **pre-configured** in DevTrail. No additional setup required!
 
 ---
 
@@ -167,19 +167,19 @@ Beyond auto-documentation, you can actively invoke documentation:
 ### Claude Code & Gemini CLI
 
 ```bash
-/monimen-status    # Check documentation compliance
-/monimen-new       # Create any document (AI suggests type)
-/monimen-ailog     # Quick AILOG creation
-/monimen-aidec     # Quick AIDEC creation
-/monimen-adr       # Quick ADR creation
+/devtrail-status    # Check documentation compliance
+/devtrail-new       # Create any document (AI suggests type)
+/devtrail-ailog     # Quick AILOG creation
+/devtrail-aidec     # Quick AIDEC creation
+/devtrail-adr       # Quick ADR creation
 ```
 
 ### Shell Scripts (Any Platform)
 
 ```bash
-./scripts/monimen-status.sh
-./scripts/monimen-new.sh
-./scripts/monimen-new.sh ailog
+./scripts/devtrail-status.sh
+./scripts/devtrail-new.sh
+./scripts/devtrail-new.sh ailog
 ```
 
 ---
@@ -212,7 +212,7 @@ To customize for your project:
 If using multiple AI platforms on the same project:
 
 - All agents read their respective config files
-- All agents follow the same Monimen rules
+- All agents follow the same DevTrail rules
 - Documents are interchangeable (same format)
 - Use agent identifier to track who created what
 

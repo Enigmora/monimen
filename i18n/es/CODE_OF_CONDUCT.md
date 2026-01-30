@@ -4,7 +4,7 @@
 
 ## Nuestro Compromiso
 
-Nosotros, como miembros, contribuidores y líderes, nos comprometemos a hacer de la participación en la comunidad de Monimen una experiencia libre de acoso para todos, independientemente de la edad, tamaño corporal, discapacidad visible o invisible, etnia, características sexuales, identidad y expresión de género, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, casta, color, religión o identidad y orientación sexual.
+Nosotros, como miembros, contribuidores y líderes, nos comprometemos a hacer de la participación en la comunidad de DevTrail una experiencia libre de acoso para todos, independientemente de la edad, tamaño corporal, discapacidad visible o invisible, etnia, características sexuales, identidad y expresión de género, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, casta, color, religión o identidad y orientación sexual.
 
 Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y saludable.
 
@@ -127,7 +127,7 @@ Para respuestas a preguntas comunes sobre este código de conducta, ver las FAQ 
 ---
 
 <p align="center">
-  <strong>Monimen</strong><br>
+  <strong>DevTrail</strong><br>
   Construyendo una comunidad inclusiva juntos<br>
   <a href="https://enigmora.com">Enigmora SC</a>
 </p>

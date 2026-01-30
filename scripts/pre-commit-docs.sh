@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =============================================================================
-# Enigmora Monimen Framework - Pre-commit Hook for Documentation Validation
+# DevTrail - Pre-commit Hook for Documentation Validation
 # https://enigmora.com
 # =============================================================================
 #
@@ -33,7 +33,7 @@ echo ""
 # 1. Get staged documentation files
 # =============================================================================
 
-STAGED_DOCS=$(git diff --cached --name-only --diff-filter=ACM | grep -E "^\.monimen/.*\.md$" || true)
+STAGED_DOCS=$(git diff --cached --name-only --diff-filter=ACM | grep -E "^\.devtrail/.*\.md$" || true)
 
 if [ -z "$STAGED_DOCS" ]; then
     echo -e "${GREEN}✓ No staged markdown documents to validate${NC}"

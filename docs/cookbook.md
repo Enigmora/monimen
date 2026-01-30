@@ -1,4 +1,4 @@
-# Monimen Cookbook
+# DevTrail Cookbook
 
 Quick reference for common documentation scenarios.
 
@@ -8,14 +8,14 @@ Quick reference for common documentation scenarios.
 
 | Scenario | Document Type | Command |
 |----------|---------------|---------|
-| Implemented feature | AILOG | `/monimen-ailog` |
-| Chose between options | AIDEC | `/monimen-aidec` |
-| Security issue | AILOG (risk: high) | `/monimen-ailog` |
-| Technical debt | TDE | `/monimen-new tde` |
-| Personal data | AILOG + ETH | `/monimen-new eth` |
-| Production incident | INC | `/monimen-new inc` |
-| New requirement | REQ | `/monimen-new req` |
-| Architecture decision | ADR | `/monimen-adr` |
+| Implemented feature | AILOG | `/devtrail-ailog` |
+| Chose between options | AIDEC | `/devtrail-aidec` |
+| Security issue | AILOG (risk: high) | `/devtrail-ailog` |
+| Technical debt | TDE | `/devtrail-new tde` |
+| Personal data | AILOG + ETH | `/devtrail-new eth` |
+| Production incident | INC | `/devtrail-new inc` |
+| New requirement | REQ | `/devtrail-new req` |
+| Architecture decision | ADR | `/devtrail-adr` |
 
 ---
 
@@ -157,4 +157,4 @@ Create centralized config module.
 
 ## Full Documentation
 
-See the [Monimen Handbook](https://enigmora.github.io/monimen/handbook/cookbook) for complete examples.
+See the [DevTrail Handbook](https://enigmora.github.io/devtrail/handbook/cookbook) for complete examples.

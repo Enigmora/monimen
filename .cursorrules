@@ -1,45 +1,45 @@
-# Enigmora Monimen Framework - Documentation Rules
+# DevTrail - Documentation Rules
 
 > No significant change without a documented trace.
 
 ## Language Configuration
 
-Check `.monimen/config.yml` for the project's language setting:
+Check `.devtrail/config.yml` for the project's language setting:
 
 ```yaml
 language: en  # Options: en, es (default: en)
 ```
 
 **Template paths based on language:**
-- `en` (default): `.monimen/templates/TEMPLATE-*.md`
-- `es`: `.monimen/templates/i18n/es/TEMPLATE-*.md`
+- `en` (default): `.devtrail/templates/TEMPLATE-*.md`
+- `es`: `.devtrail/templates/i18n/es/TEMPLATE-*.md`
 
 If the config file doesn't exist or `language` is not set, use English (`en`) as default.
 
 ## Documentation Reporting
 
-At the end of each task, you MUST report your Monimen documentation status:
+At the end of each task, you MUST report your DevTrail documentation status:
 
 **If you created documentation:**
 ```
-Monimen: Created AILOG-2025-01-27-001-implement-auth.md
+DevTrail: Created AILOG-2025-01-27-001-implement-auth.md
 ```
 
 **If documentation was not needed:**
 ```
-Monimen: No documentation required (minor change / <10 lines)
+DevTrail: No documentation required (minor change / <10 lines)
 ```
 
 **If you should have documented but didn't:**
 ```
-Monimen: Documentation pending - review required
+DevTrail: Documentation pending - review required
 ```
 
-This transparency helps users verify compliance with Monimen Framework rules.
+This transparency helps users verify compliance with DevTrail rules.
 
 ## Identity
 
-You are an agent working on this project under Monimen Framework.
+You are an agent working on this project under DevTrail.
 - Identify yourself as: `cursor-v1.0`
 - Record your identification in the `agent:` field of metadata
 - Declare confidence level: `high | medium | low`
@@ -91,10 +91,10 @@ risk_level: low | medium | high | critical
 | REQ | Propose → human validates |
 | TDE | Identify yes, prioritize no |
 
-## Documentation Map (Monimen)
+## Documentation Map (DevTrail)
 
 ```
-.monimen/
+.devtrail/
 ├── 00-governance/          ← Policies (load if in doubt)
 │   ├── AGENT-RULES.md      # Detailed rules
 │   └── DOCUMENTATION-POLICY.md
@@ -114,11 +114,11 @@ risk_level: low | medium | high | critical
 
 | Need to | Load |
 |---------|------|
-| Create AILOG | `.monimen/templates/TEMPLATE-AILOG.md` |
-| Create AIDEC | `.monimen/templates/TEMPLATE-AIDEC.md` |
-| Create ADR | `.monimen/templates/TEMPLATE-ADR.md` |
-| Naming questions | `.monimen/00-governance/DOCUMENTATION-POLICY.md` |
-| Autonomy questions | `.monimen/00-governance/AGENT-RULES.md` |
+| Create AILOG | `.devtrail/templates/TEMPLATE-AILOG.md` |
+| Create AIDEC | `.devtrail/templates/TEMPLATE-AIDEC.md` |
+| Create ADR | `.devtrail/templates/TEMPLATE-ADR.md` |
+| Naming questions | `.devtrail/00-governance/DOCUMENTATION-POLICY.md` |
+| Autonomy questions | `.devtrail/00-governance/AGENT-RULES.md` |
 
 ## Human Review
 
@@ -130,4 +130,4 @@ Mark `review_required: true` when:
 
 ---
 
-*Enigmora Monimen Framework v1.0.0 | [Enigmora](https://enigmora.com)*
+*DevTrail v1.0.0 | [Enigmora](https://enigmora.com)*

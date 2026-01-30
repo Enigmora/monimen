@@ -1,6 +1,6 @@
-# Contribuir a Enigmora Monimen Framework
+# Contribuir a DevTrail
 
-¡Gracias por tu interés en contribuir a Monimen Framework! Este documento proporciona guías e información para contribuidores.
+¡Gracias por tu interés en contribuir a DevTrail! Este documento proporciona guías e información para contribuidores.
 
 **Idiomas**: [English](../../CONTRIBUTING.md) | Español
 
@@ -91,8 +91,8 @@ Las contribuciones de código deben:
 
 2. **Clonar tu fork**
    ```bash
-   git clone https://github.com/tu-usuario/enigmora-monimen.git
-   cd monimen-framework
+   git clone https://github.com/tu-usuario/devtrail.git
+   cd devtrail-framework
    ```
 
 3. **Crear una rama**
@@ -205,7 +205,7 @@ created: YYYY-MM-DD
 
 ### Nomenclatura de Archivos
 
-Documentos Monimen:
+Documentos DevTrail:
 ```
 [TIPO]-[YYYY-MM-DD]-[NNN]-[descripcion].md
 ```
@@ -229,13 +229,13 @@ Documentos Monimen:
 Si estás proponiendo un nuevo tipo de documento:
 
 1. **Crear la plantilla**
-   - Agregar `TEMPLATE-NUEVOTIPO.md` a `.monimen/templates/`
+   - Agregar `TEMPLATE-NUEVOTIPO.md` a `.devtrail/templates/`
    - Seguir patrones de plantillas existentes
 
 2. **Actualizar docs de gobernanza**
-   - `.monimen/00-governance/DOCUMENTATION-POLICY.md`
-   - `.monimen/00-governance/AGENT-RULES.md`
-   - `.monimen/QUICK-REFERENCE.md`
+   - `.devtrail/00-governance/DOCUMENTATION-POLICY.md`
+   - `.devtrail/00-governance/AGENT-RULES.md`
+   - `.devtrail/QUICK-REFERENCE.md`
 
 3. **Actualizar configs de agente**
    - `CLAUDE.md`
@@ -274,8 +274,8 @@ Las plantillas deben incluir:
 
 Si tienes preguntas sobre contribuir:
 
-1. Revisa [Issues](https://github.com/enigmora/monimen-framework/issues) existentes
-2. Revisa [Discussions](https://github.com/enigmora/monimen-framework/discussions)
+1. Revisa [Issues](https://github.com/enigmora/devtrail-framework/issues) existentes
+2. Revisa [Discussions](https://github.com/enigmora/devtrail-framework/discussions)
 3. Abre una nueva Discussion para preguntas generales
 4. Abre un Issue para bugs o características específicas
 
@@ -289,10 +289,10 @@ Los contribuidores son reconocidos en:
 - Notas de release para contribuciones significativas
 - CONTRIBUTORS.md (para contribuidores recurrentes)
 
-¡Gracias por ayudar a mejorar Monimen Framework!
+¡Gracias por ayudar a mejorar DevTrail!
 
 ---
 
-*Enigmora Monimen Framework — Porque cada cambio cuenta una historia.*
+*DevTrail — Porque cada cambio cuenta una historia.*
 
 [Enigmora](https://enigmora.com)

@@ -1,6 +1,6 @@
-# Enigmora Monimen Framework - Guía de Adopción
+# DevTrail - Guía de Adopción
 
-**Una guía completa para adoptar Enigmora Monimen Framework en proyectos nuevos o existentes.**
+**Una guía completa para adoptar DevTrail en proyectos nuevos o existentes.**
 
 [![Enigmora](https://img.shields.io/badge/by-Enigmora-purple.svg)](https://enigmora.com)
 
@@ -10,7 +10,7 @@
 
 ## Tabla de Contenidos
 
-1. [¿Qué es Monimen Framework?](#qué-es-monimen-framework)
+1. [¿Qué es DevTrail?](#qué-es-devtrail-framework)
 2. [¿Para quién es?](#para-quién-es)
 3. [Beneficios](#beneficios)
 4. [Cumplimiento de Estándares](#cumplimiento-de-estándares)
@@ -22,9 +22,9 @@
 
 ---
 
-## ¿Qué es Monimen Framework?
+## ¿Qué es DevTrail?
 
-Enigmora Monimen Framework es un **sistema de gobernanza de documentación** diseñado para proyectos de desarrollo de software que utilizan asistentes de codificación con IA. Proporciona:
+DevTrail es un **sistema de gobernanza de documentación** diseñado para proyectos de desarrollo de software que utilizan asistentes de codificación con IA. Proporciona:
 
 - **Documentación estructurada** para decisiones, acciones y cambios
 - **Responsabilidad de agentes IA** mediante identificación obligatoria y seguimiento de confianza
@@ -35,9 +35,9 @@ Enigmora Monimen Framework es un **sistema de gobernanza de documentación** dis
 
 > **"Ningún cambio significativo sin un rastro documentado."**
 
-Monimen asegura que cada cambio significativo en tu código base esté documentado, atribuido y sea revisable—ya sea hecho por un desarrollador humano o un asistente de IA.
+DevTrail asegura que cada cambio significativo en tu código base esté documentado, atribuido y sea revisable—ya sea hecho por un desarrollador humano o un asistente de IA.
 
-### Lo que Monimen NO Es
+### Lo que DevTrail NO Es
 
 - No es un generador de documentación (proporciona estructura, no generación de contenido)
 - No es un reemplazo para comentarios de código o documentación de API
@@ -59,7 +59,7 @@ Monimen asegura que cada cambio significativo en tu código base esté documenta
 
 ### Entornos de Desarrollo Compatibles
 
-Enigmora Monimen Framework proporciona archivos de configuración para:
+DevTrail proporciona archivos de configuración para:
 
 | Plataforma | Archivo de Configuración | Estado |
 |------------|--------------------------|--------|
@@ -71,9 +71,9 @@ Enigmora Monimen Framework proporciona archivos de configuración para:
 
 ### Metodologías Compatibles
 
-Monimen funciona con cualquier metodología de desarrollo:
+DevTrail funciona con cualquier metodología de desarrollo:
 
-| Metodología | Cómo se Integra Monimen |
+| Metodología | Cómo se Integra DevTrail |
 |-------------|---------------------------|
 | **Agile/Scrum** | Documentos REQ se mapean a historias de usuario; ADRs capturan decisiones de sprint |
 | **Cascada** | Trazabilidad completa desde requisitos hasta implementación |
@@ -116,11 +116,11 @@ Monimen funciona con cualquier metodología de desarrollo:
 
 ## Cumplimiento de Estándares
 
-Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
+DevTrail se alinea con y soporta cumplimiento para:
 
 ### Estándares de Ingeniería de Software
 
-| Estándar | Cómo Ayuda Monimen |
+| Estándar | Cómo Ayuda DevTrail |
 |----------|---------------------|
 | **IEEE 830** (SRS) | Documentos REQ siguen formato estructurado de requisitos |
 | **ISO/IEC 25010** | Atributos de calidad documentados en ADRs |
@@ -128,7 +128,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
 ### Documentación de Arquitectura
 
-| Estándar | Cómo Ayuda Monimen |
+| Estándar | Cómo Ayuda DevTrail |
 |----------|---------------------|
 | **ADR (Architecture Decision Records)** | Soporte nativo de ADR con metadatos extendidos |
 | **arc42** | ADRs complementan documentación de decisiones de arc42 |
@@ -136,7 +136,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
 ### Cumplimiento y Gobernanza
 
-| Regulación | Cómo Ayuda Monimen |
+| Regulación | Cómo Ayuda DevTrail |
 |------------|---------------------|
 | **GDPR** | Documentos ETH para evaluaciones de impacto de privacidad |
 | **SOC 2** | Documentación de cambios y registro de accesos |
@@ -145,7 +145,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
 ### Gobernanza de IA
 
-| Marco | Cómo Ayuda Monimen |
+| Marco | Cómo Ayuda DevTrail |
 |-------|---------------------|
 | **EU AI Act** | Transparencia a través de AILOG/AIDEC; supervisión humana via ETH |
 | **NIST AI RMF** | Documentación de riesgos en registros de decisión |
@@ -159,7 +159,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
 1. **Crear desde plantilla**
 
-   Haz clic en "Use this template" en el [repositorio de Monimen Framework](https://github.com/enigmora/monimen-framework) para crear un nuevo repositorio.
+   Haz clic en "Use this template" en el [repositorio de DevTrail](https://github.com/enigmora/devtrail-framework) para crear un nuevo repositorio.
 
 2. **Clonar tu nuevo repositorio**
    ```bash
@@ -170,8 +170,8 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 3. **Eliminar archivos de ejemplo (opcional)**
    ```bash
    # Mantener la estructura, eliminar contenido de ejemplo
-   find .monimen -name "*.md" -path "*-audit/*" -delete
-   find .monimen -name "*.md" -path "*requirements/*" -delete
+   find .devtrail -name "*.md" -path "*-audit/*" -delete
+   find .devtrail -name "*.md" -path "*requirements/*" -delete
    # etc.
    ```
 
@@ -186,38 +186,38 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 5. **Inicializar tu documentación**
    ```bash
    # Crear tu primer requisito
-   touch .monimen/01-requirements/REQ-$(date +%Y-%m-%d)-001-requisitos-iniciales.md
+   touch .devtrail/01-requirements/REQ-$(date +%Y-%m-%d)-001-requisitos-iniciales.md
    ```
 
 ### Opción 2: Configuración Manual
 
-1. **Descargar Monimen Framework**
+1. **Descargar DevTrail**
    ```bash
    # Clonar el repositorio
-   git clone https://github.com/enigmora/monimen-framework.git monimen-temp
+   git clone https://github.com/enigmora/devtrail-framework.git devtrail-temp
 
    # Copiar a tu proyecto
-   cp -r monimen-temp/.monimen tu-proyecto/
-   cp monimen-temp/CLAUDE.md tu-proyecto/
-   cp monimen-temp/GEMINI.md tu-proyecto/
-   cp monimen-temp/.cursorrules tu-proyecto/
-   cp -r monimen-temp/.github tu-proyecto/
-   cp -r monimen-temp/scripts tu-proyecto/
+   cp -r devtrail-temp/.devtrail tu-proyecto/
+   cp devtrail-temp/CLAUDE.md tu-proyecto/
+   cp devtrail-temp/GEMINI.md tu-proyecto/
+   cp devtrail-temp/.cursorrules tu-proyecto/
+   cp -r devtrail-temp/.github tu-proyecto/
+   cp -r devtrail-temp/scripts tu-proyecto/
 
    # Limpiar
-   rm -rf monimen-temp
+   rm -rf devtrail-temp
    ```
 
 2. **Agregar a .gitignore (si es necesario)**
    ```gitignore
-   # Monimen Framework - nada que ignorar por defecto
+   # DevTrail - nada que ignorar por defecto
    # Agrega patrones aquí si generas archivos temporales
    ```
 
 3. **Commit de la estructura**
    ```bash
-   git add .monimen/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
-   git commit -m "chore: adoptar Monimen Framework para gobernanza de documentación"
+   git add .devtrail/ CLAUDE.md GEMINI.md .cursorrules .github/ scripts/
+   git commit -m "chore: adoptar DevTrail para gobernanza de documentación"
    ```
 
 ---
@@ -238,40 +238,40 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
    | Estado Actual | Acción Recomendada |
    |---------------|-------------------|
-   | Sin documentación | Comenzar desde cero con Monimen |
-   | Docs en carpeta `docs/` | Mantener `docs/` para docs orientados al usuario, agregar `.monimen/` para docs de desarrollo |
-   | ADRs existentes | Migrar a `.monimen/02-design/decisions/` con nueva nomenclatura |
+   | Sin documentación | Comenzar desde cero con DevTrail |
+   | Docs en carpeta `docs/` | Mantener `docs/` para docs orientados al usuario, agregar `.devtrail/` para docs de desarrollo |
+   | ADRs existentes | Migrar a `.devtrail/02-design/decisions/` con nueva nomenclatura |
    | Documentación mixta | Categorizar y migrar gradualmente |
 
 ### Fase 2: Instalación (Día 1-2)
 
-1. **Agregar estructura Monimen**
+1. **Agregar estructura DevTrail**
    ```bash
-   # Descargar y copiar archivos Monimen
-   git clone https://github.com/enigmora/monimen-framework.git monimen-temp
+   # Descargar y copiar archivos DevTrail
+   git clone https://github.com/enigmora/devtrail-framework.git devtrail-temp
 
    # Copiar estructura (no sobrescribirá archivos existentes)
-   cp -rn monimen-temp/.monimen ./
-   cp -n monimen-temp/CLAUDE.md ./
-   cp -n monimen-temp/GEMINI.md ./
-   cp -n monimen-temp/.cursorrules ./
+   cp -rn devtrail-temp/.devtrail ./
+   cp -n devtrail-temp/CLAUDE.md ./
+   cp -n devtrail-temp/GEMINI.md ./
+   cp -n devtrail-temp/.cursorrules ./
    mkdir -p .github
-   cp -rn monimen-temp/.github/* ./.github/
-   cp -rn monimen-temp/scripts ./
+   cp -rn devtrail-temp/.github/* ./.github/
+   cp -rn devtrail-temp/scripts ./
 
-   rm -rf monimen-temp
+   rm -rf devtrail-temp
    ```
 
 2. **Resolver conflictos con `docs/` existente**
 
-   Monimen usa `.monimen/` específicamente para evitar conflictos:
+   DevTrail usa `.devtrail/` específicamente para evitar conflictos:
 
    ```
    tu-proyecto/
    ├── docs/                    ← Mantener para docs de API, guías de usuario, etc.
    │   ├── api/
    │   └── user-guide/
-   ├── .monimen/              ← Agregar para documentación de desarrollo
+   ├── .devtrail/              ← Agregar para documentación de desarrollo
    │   ├── 00-governance/
    │   ├── 01-requirements/
    │   └── ...
@@ -285,10 +285,10 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
    Para cada ADR existente:
    ```bash
    # Antiguo: docs/adr/001-usar-postgresql.md
-   # Nuevo: .monimen/02-design/decisions/ADR-2024-01-15-001-usar-postgresql.md
+   # Nuevo: .devtrail/02-design/decisions/ADR-2024-01-15-001-usar-postgresql.md
    ```
 
-   Agregar metadatos Monimen al front-matter:
+   Agregar metadatos DevTrail al front-matter:
    ```yaml
    ---
    id: ADR-2024-01-15-001
@@ -309,7 +309,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
    Crear un AILOG documentando la migración:
    ```
-   .monimen/07-ai-audit/agent-logs/AILOG-2025-01-27-001-adopcion-monimen.md
+   .devtrail/07-ai-audit/agent-logs/AILOG-2025-01-27-001-adopcion-devtrail.md
    ```
 
 ### Fase 4: Adopción del Equipo (Semana 2-4)
@@ -320,13 +320,13 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
    ```markdown
    ## Documentación
 
-   Este proyecto usa [Monimen Framework](enlace) para gobernanza de documentación.
+   Este proyecto usa [DevTrail](enlace) para gobernanza de documentación.
 
-   - Todos los cambios significativos deben documentarse en `.monimen/`
+   - Todos los cambios significativos deben documentarse en `.devtrail/`
    - Cambios asistidos por IA requieren entradas AILOG
    - Decisiones arquitectónicas requieren documentos ADR
 
-   Ver `.monimen/QUICK-REFERENCE.md` para tipos de documentos y nomenclatura.
+   Ver `.devtrail/QUICK-REFERENCE.md` para tipos de documentos y nomenclatura.
    ```
 
 2. **Habilitar hooks pre-commit (opcional)**
@@ -347,7 +347,7 @@ Enigmora Monimen Framework se alinea con y soporta cumplimiento para:
 
 | Semana | Enfoque |
 |--------|---------|
-| Semana 1 | Equipo principal adopta Monimen para nuevas decisiones |
+| Semana 1 | Equipo principal adopta DevTrail para nuevas decisiones |
 | Semana 2 | Migrar ADRs existentes críticos |
 | Semana 3 | Habilitar validación en CI/CD |
 | Semana 4 | Adopción completa del equipo; documentar deuda técnica existente |
@@ -373,15 +373,15 @@ Para agregar un nuevo tipo de documento:
 
 1. **Crear la plantilla**
    ```
-   .monimen/templates/TEMPLATE-NUEVOTIPO.md
+   .devtrail/templates/TEMPLATE-NUEVOTIPO.md
    ```
 
 2. **Actualizar docs de gobernanza**
 
    Agregar el nuevo tipo a:
-   - `.monimen/00-governance/DOCUMENTATION-POLICY.md`
-   - `.monimen/00-governance/AGENT-RULES.md`
-   - `.monimen/QUICK-REFERENCE.md`
+   - `.devtrail/00-governance/DOCUMENTATION-POLICY.md`
+   - `.devtrail/00-governance/AGENT-RULES.md`
+   - `.devtrail/QUICK-REFERENCE.md`
 
 3. **Actualizar configs de agente**
 
@@ -415,11 +415,11 @@ Puedes renombrar carpetas, pero actualiza todas las referencias en:
 Si usas Claude Code, verifica el cumplimiento de documentación con el skill integrado:
 
 ```bash
-/monimen-status
+/devtrail-status
 ```
 
 Este skill muestra:
-- Qué documentos Monimen fueron creados recientemente
+- Qué documentos DevTrail fueron creados recientemente
 - Qué archivos modificados pueden necesitar documentación
 - Estado general de cumplimiento de documentación
 
@@ -438,10 +438,10 @@ bash scripts/pre-commit-docs.sh
 
 ### Lista de Verificación
 
-- [ ] Estructura de carpetas `.monimen/` existe
+- [ ] Estructura de carpetas `.devtrail/` existe
 - [ ] Al menos un archivo de config de agente existe (`CLAUDE.md`, `GEMINI.md`, etc.)
-- [ ] Documentos de gobernanza presentes en `.monimen/00-governance/`
-- [ ] Plantillas presentes en `.monimen/templates/`
+- [ ] Documentos de gobernanza presentes en `.devtrail/00-governance/`
+- [ ] Plantillas presentes en `.devtrail/templates/`
 - [ ] `QUICK-REFERENCE.md` es accesible
 - [ ] Scripts de validación se ejecutan sin errores
 - [ ] (Opcional) Hook pre-commit está instalado
@@ -453,34 +453,34 @@ bash scripts/pre-commit-docs.sh
 
 ### Preguntas Generales
 
-**P: ¿Monimen reemplaza mi documentación existente?**
+**P: ¿DevTrail reemplaza mi documentación existente?**
 
-R: No. Monimen es para *documentación del proceso de desarrollo* (decisiones, cambios, revisiones). Mantén tu carpeta `docs/` existente para documentación orientada al usuario, referencias de API y guías.
+R: No. DevTrail es para *documentación del proceso de desarrollo* (decisiones, cambios, revisiones). Mantén tu carpeta `docs/` existente para documentación orientada al usuario, referencias de API y guías.
 
-**P: ¿Necesito usar asistentes de codificación con IA para beneficiarme de Monimen?**
+**P: ¿Necesito usar asistentes de codificación con IA para beneficiarme de DevTrail?**
 
-R: No. Monimen funciona también para equipos solo de humanos. Las características de auditoría de IA (AILOG, AIDEC, ETH) se vuelven especialmente valiosas al usar asistentes de IA, pero ADR, REQ, TDE y otros tipos de documentos son útiles para cualquier equipo.
+R: No. DevTrail funciona también para equipos solo de humanos. Las características de auditoría de IA (AILOG, AIDEC, ETH) se vuelven especialmente valiosas al usar asistentes de IA, pero ADR, REQ, TDE y otros tipos de documentos son útiles para cualquier equipo.
 
-**P: ¿Cuánto overhead agrega Monimen?**
+**P: ¿Cuánto overhead agrega DevTrail?**
 
-R: Monimen sigue un principio de "documentación mínima viable". Solo los cambios significativos requieren documentación. Los cambios triviales (erratas, formato) están explícitamente excluidos.
+R: DevTrail sigue un principio de "documentación mínima viable". Solo los cambios significativos requieren documentación. Los cambios triviales (erratas, formato) están explícitamente excluidos.
 
 ### Preguntas Técnicas
 
-**P: ¿Por qué usar `.monimen/` en lugar de `docs/`?**
+**P: ¿Por qué usar `.devtrail/` en lugar de `docs/`?**
 
-R: La carpeta `docs/` se usa comúnmente para documentación orientada al usuario, GitHub Pages o docs de API generados. Usar `.monimen/` evita conflictos y separa claramente la documentación de desarrollo de la documentación de usuario.
+R: La carpeta `docs/` se usa comúnmente para documentación orientada al usuario, GitHub Pages o docs de API generados. Usar `.devtrail/` evita conflictos y separa claramente la documentación de desarrollo de la documentación de usuario.
 
-**P: ¿Puedo usar Monimen con monorepos?**
+**P: ¿Puedo usar DevTrail con monorepos?**
 
 R: Sí. Puedes:
-- Tener un `.monimen/` en la raíz para todo el monorepo
-- Tener carpetas `.monimen/` separadas en cada paquete/servicio
+- Tener un `.devtrail/` en la raíz para todo el monorepo
+- Tener carpetas `.devtrail/` separadas en cada paquete/servicio
 - Usar un enfoque híbrido con gobernanza compartida en la raíz
 
 **P: ¿Cómo manejo información sensible?**
 
-R: Monimen prohíbe explícitamente documentar credenciales, tokens o secretos. Los scripts de validación verifican patrones sensibles comunes y te advierten. Para decisiones genuinamente sensibles, documenta la *existencia* de la decisión sin los detalles sensibles.
+R: DevTrail prohíbe explícitamente documentar credenciales, tokens o secretos. Los scripts de validación verifican patrones sensibles comunes y te advierten. Para decisiones genuinamente sensibles, documenta la *existencia* de la decisión sin los detalles sensibles.
 
 ### Preguntas de Adopción
 
@@ -492,16 +492,16 @@ R: Comienza pequeño:
 3. Demuestra tiempo ahorrado al revisar decisiones antiguas
 4. Expande gradualmente a otros tipos de documentos
 
-**P: ¿Cómo manejo documentos creados antes de adoptar Monimen?**
+**P: ¿Cómo manejo documentos creados antes de adoptar DevTrail?**
 
 R: Tienes tres opciones:
-1. **Migrar**: Convertir documentos antiguos al formato Monimen (recomendado para docs importantes)
-2. **Referenciar**: Mantener docs antiguos en su lugar, referenciarlos desde docs Monimen
-3. **Archivar**: Mover docs antiguos a una carpeta de archivo, comenzar de nuevo con Monimen
+1. **Migrar**: Convertir documentos antiguos al formato DevTrail (recomendado para docs importantes)
+2. **Referenciar**: Mantener docs antiguos en su lugar, referenciarlos desde docs DevTrail
+3. **Archivar**: Mover docs antiguos a una carpeta de archivo, comenzar de nuevo con DevTrail
 
 **P: ¿Qué pasa si mi asistente de IA no sigue las reglas?**
 
-R: Las reglas de Monimen son instrucciones, no cumplimiento forzado. Si un asistente de IA crea documentación no conforme:
+R: Las reglas de DevTrail son instrucciones, no cumplimiento forzado. Si un asistente de IA crea documentación no conforme:
 1. El hook pre-commit detectará errores de validación
 2. CI/CD marcará problemas en PRs
 3. Puedes corregir manualmente y educar a la IA en el siguiente prompt
@@ -510,15 +510,15 @@ R: Las reglas de Monimen son instrucciones, no cumplimiento forzado. Si un asist
 
 ## Obtener Ayuda
 
-- **Issues**: [GitHub Issues](https://github.com/enigmora/monimen-framework/issues)
-- **Discusiones**: [GitHub Discussions](https://github.com/enigmora/monimen-framework/discussions)
+- **Issues**: [GitHub Issues](https://github.com/enigmora/devtrail-framework/issues)
+- **Discusiones**: [GitHub Discussions](https://github.com/enigmora/devtrail-framework/discussions)
 - **Contribuir**: Ver [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
 <div align="center">
 
-**Enigmora Monimen Framework** — Porque cada cambio cuenta una historia.
+**DevTrail** — Porque cada cambio cuenta una historia.
 
 [Volver al README](README.md) • [Enigmora](https://enigmora.com)
 
