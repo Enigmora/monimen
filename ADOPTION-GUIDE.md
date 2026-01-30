@@ -356,7 +356,16 @@ DevTrail aligns with and supports compliance for:
 
 ### Customizing Agent Identifiers
 
-Each AI platform has its own configuration file. Update the agent identifier to match your versioning:
+Each AI platform has its own configuration file that:
+
+1. Identifies the agent (e.g., `claude-code-v1.0`)
+2. Defines when to document (>10 lines, security changes, etc.)
+3. Sets autonomy limits
+4. Specifies templates location
+5. Requires documentation reporting
+6. **Enforces Git workflow** (branch naming, conventional commits, no direct commits to `main`)
+
+Update the agent identifier to match your versioning:
 
 ```yaml
 # In any agent config file
@@ -440,6 +449,7 @@ bash scripts/pre-commit-docs.sh
 - [ ] At least one agent config file exists (`CLAUDE.md`, `GEMINI.md`, etc.)
 - [ ] Governance documents are present in `.devtrail/00-governance/`
 - [ ] Templates are present in `.devtrail/templates/`
+- [ ] Git branching strategy documented in `.devtrail/03-implementation/`
 - [ ] `QUICK-REFERENCE.md` is accessible
 - [ ] Validation scripts run without errors
 - [ ] (Optional) Pre-commit hook is installed

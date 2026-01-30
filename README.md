@@ -72,6 +72,7 @@ Each configuration instructs the AI to:
 - Declare confidence levels
 - Request human review when appropriate
 - Follow naming conventions
+- **Follow Git branching strategy** (never commit to `main` directly)
 
 ### 👁️ Human Oversight
 
@@ -149,7 +150,7 @@ git commit -m "chore: adopt DevTrail"
 ├── 00-governance/           # Policies and rules
 ├── 01-requirements/         # REQ documents
 ├── 02-design/decisions/     # ADR documents
-├── 03-implementation/       # Implementation guides
+├── 03-implementation/       # Implementation guides (incl. Git strategy)
 ├── 04-testing/              # TES documents
 ├── 05-operations/incidents/ # INC documents
 ├── 06-evolution/technical-debt/ # TDE documents

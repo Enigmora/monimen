@@ -90,6 +90,7 @@ your-project/
 │   ├── 00-governance/           # Policies and rules
 │   ├── 01-requirements/         # REQ documents
 │   ├── 02-design/decisions/     # ADR documents
+│   ├── 03-implementation/       # Implementation guides (Git strategy)
 │   ├── 07-ai-audit/             # AILOG, AIDEC, ETH documents
 │   ├── templates/               # Document templates
 │   └── QUICK-REFERENCE.md       # Quick reference card
@@ -119,6 +120,8 @@ Choose your AI platform and follow the setup:
 - Identify itself in documents
 - Create AILOG/AIDEC documents when appropriate
 - Request human review for high-risk changes
+- Follow Git branching strategy (never commit to `main` directly)
+- Use conventional commits (`feat:`, `fix:`, `docs:`, etc.)
 
 ---
 

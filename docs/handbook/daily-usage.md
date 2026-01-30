@@ -19,6 +19,40 @@ But what counts as "significant"? And what doesn't?
 
 ---
 
+## Git Workflow
+
+Before documenting, follow the Git branching strategy:
+
+### Branch Naming
+
+| Prefix | Purpose |
+|--------|---------|
+| `feature/` or `feat/` | New features |
+| `fix/` | Bug fixes |
+| `hotfix/` | Urgent production fixes |
+| `docs/` | Documentation only |
+
+### Quick Workflow
+
+```bash
+# 1. Create branch from updated main
+git checkout main && git pull origin main
+git checkout -b fix/descriptive-name
+
+# 2. Make changes and commits (use conventional commits)
+git commit -m "fix: resolve pagination issue"
+
+# 3. Push and create PR
+git push -u origin fix/descriptive-name
+gh pr create --title "fix: description" --body "..."
+```
+
+> **CRITICAL**: Never commit directly to `main`. Always use branches + PRs.
+>
+> Full details: `.devtrail/03-implementation/GIT-BRANCHING-STRATEGY.md`
+
+---
+
 ## When to Document
 
 ### ✅ MUST Document

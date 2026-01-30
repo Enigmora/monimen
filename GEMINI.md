@@ -63,7 +63,48 @@ When working on this project:
 
 ---
 
-## 5. When to Document
+## 5. Git Operations
+
+> **CRITICAL: Never commit directly to `main` branch.**
+
+All changes must go through feature/fix branches and Pull Requests.
+
+### Branch Prefixes
+
+| Prefix | Purpose |
+|--------|---------|
+| `feature/` or `feat/` | New features |
+| `fix/` | Bug fixes |
+| `hotfix/` | Urgent production fixes |
+| `docs/` | Documentation only |
+| `refactor/` | Code refactoring |
+| `test/` | Test changes |
+
+### Conventional Commits
+
+| Prefix | Use Case |
+|--------|----------|
+| `feat:` | New feature |
+| `fix:` | Bug fix |
+| `docs:` | Documentation only |
+| `refactor:` | No behavior change |
+| `chore:` | Maintenance |
+
+### Quick Workflow
+
+```bash
+git checkout main && git pull origin main
+git checkout -b fix/descriptive-name
+# ... make changes and commits ...
+git push -u origin fix/descriptive-name
+gh pr create --title "fix: description" --body "..."
+```
+
+> **Full details:** `.devtrail/03-implementation/GIT-BRANCHING-STRATEGY.md`
+
+---
+
+## 6. When to Document
 
 ### MANDATORY (create document)
 
@@ -83,7 +124,7 @@ When working on this project:
 
 ---
 
-## 6. File Naming Convention
+## 7. File Naming Convention
 
 ```
 [TYPE]-[YYYY-MM-DD]-[NNN]-[description].md
@@ -93,7 +134,7 @@ When working on this project:
 
 ---
 
-## 7. Minimum Metadata
+## 8. Minimum Metadata
 
 ```yaml
 ---
@@ -110,7 +151,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 8. Autonomy Limits
+## 9. Autonomy Limits
 
 | Type | I can do | Requires human |
 |------|----------|----------------|
@@ -124,7 +165,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 9. Documentation Map (DevTrail)
+## 10. Documentation Map (DevTrail)
 
 ```
 .devtrail/
@@ -178,7 +219,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 10. When to Load Additional Documents
+## 11. When to Load Additional Documents
 
 | Situation | Document to load |
 |-----------|------------------|
@@ -194,7 +235,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 11. Workflow
+## 12. Workflow
 
 ```
 1. EVALUATE if the change requires documentation (see section 5)
@@ -213,7 +254,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 12. Quick Type Reference
+## 13. Quick Type Reference
 
 | Prefix | Name | Location |
 |--------|------|----------|
@@ -228,7 +269,7 @@ risk_level: low | medium | high | critical
 
 ---
 
-## 13. Human Review Required
+## 14. Human Review Required
 
 Mark `review_required: true` when:
 - `confidence: low`

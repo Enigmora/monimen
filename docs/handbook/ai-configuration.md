@@ -33,6 +33,7 @@ Each AI platform has a configuration file that:
 3. **Sets autonomy limits** — What AI can do vs. what needs human review
 4. **Specifies templates** — Where to find document templates
 5. **Requires reporting** — AI must report documentation status
+6. **Enforces Git workflow** — Branch naming and conventional commits
 
 ---
 
@@ -50,6 +51,8 @@ Claude Code automatically reads this file at session start.
 - Create AIDEC when choosing between alternatives
 - Mark review_required: true for security changes
 - Report documentation status after each task
+- Never commit directly to main branch
+- Use conventional commits (feat:, fix:, docs:, etc.)
 ```
 
 ### Customizing
@@ -206,6 +209,41 @@ To customize for your project:
    - Always document database migrations
    - Require review for payment-related code
    ```
+
+---
+
+## Git Operations
+
+All agent configurations include a **Git Operations** section that enforces:
+
+### Branch Naming
+
+| Prefix | Purpose |
+|--------|---------|
+| `feature/` or `feat/` | New features |
+| `fix/` | Bug fixes |
+| `hotfix/` | Urgent production fixes |
+| `docs/` | Documentation only |
+| `refactor/` | Code refactoring |
+| `test/` | Test changes |
+
+### Conventional Commits
+
+| Prefix | Use Case |
+|--------|----------|
+| `feat:` | New feature |
+| `fix:` | Bug fix |
+| `docs:` | Documentation only |
+| `refactor:` | No behavior change |
+| `chore:` | Maintenance |
+
+### Critical Rule
+
+> **Never commit directly to `main` branch.**
+
+All changes must go through feature/fix branches and Pull Requests.
+
+Full details: `.devtrail/03-implementation/GIT-BRANCHING-STRATEGY.md`
 
 ---
 
