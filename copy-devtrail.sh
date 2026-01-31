@@ -28,6 +28,7 @@ EXCLUDES=(
     "README.md"
     "TRANSLATION-GUIDE.md"
     "copy-devtrail.sh"
+    "copy-to-all-lnxdrive.sh"
     "assets"
     "docs"
     "i18n"
