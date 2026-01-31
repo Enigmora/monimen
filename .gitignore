@@ -1,4 +1,11 @@
-# Enigmora Chronicle Framework - .gitignore
+# Enigmora DevTrial - .gitignore
+
+# =============================================================================
+# Desarrollo interno de Enigmora
+# =============================================================================
+
+copy-to-all-lnxdrive.sh
+
 
 # =============================================================================
 # Operating System Files
