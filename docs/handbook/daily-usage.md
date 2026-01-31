@@ -49,7 +49,7 @@ gh pr create --title "fix: description" --body "..."
 
 > **CRITICAL**: Never commit directly to `main`. Always use branches + PRs.
 >
-> Full details: `.devtrail/03-implementation/GIT-BRANCHING-STRATEGY.md`
+> Full details: `.devtrail/00-governance/GIT-BRANCHING-STRATEGY.md`
 
 ---
 
